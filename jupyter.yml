@@ -14,7 +14,7 @@
           mounts:
             - name: "backup"
               fstype: "nfs,rw"
-              url: "fs1.tateishi:/volume1/nfs/jupyter-test-backup"
+              url: "fs1.tateishi:/volume1/nfs/jupyter-backup"
 
 - hosts: target
   tasks:
