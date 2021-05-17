@@ -1,2 +1,5 @@
-[target]
-jupyter
+# -*- mode: yaml -*-
+
+target:
+  hosts:
+    jupyter:
